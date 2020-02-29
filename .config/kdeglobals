@@ -1,0 +1,157 @@
+[$Version]
+update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar
+
+[ColorEffects:Disabled]
+Color=112,111,110
+ColorAmount=-0.8
+ColorEffect=0
+ContrastAmount=0.65
+ContrastEffect=1
+IntensityAmount=0.55
+IntensityEffect=2
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=0,0,0
+ColorAmount=0.025
+ColorEffect=2
+ContrastAmount=0.4
+ContrastEffect=2
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=38,38,38
+BackgroundNormal=38,38,38
+DecorationFocus=255,133,166
+DecorationHover=94,31,47
+ForegroundActive=150,191,240
+ForegroundInactive=128,143,148
+ForegroundLink=255,133,166
+ForegroundNegative=163,53,83
+ForegroundNeutral=194,194,194
+ForegroundNormal=161,180,186
+ForegroundPositive=120,183,83
+ForegroundVisited=194,194,194
+
+[Colors:Complementary]
+BackgroundAlternate=59,64,69
+BackgroundNormal=49,54,59
+DecorationFocus=255,85,127
+DecorationHover=171,57,85
+ForegroundActive=147,206,233
+ForegroundInactive=147,165,170
+ForegroundLink=61,174,230
+ForegroundNegative=231,76,60
+ForegroundNeutral=190,190,190
+ForegroundNormal=161,180,186
+ForegroundPositive=255,85,127
+ForegroundVisited=61,174,230
+
+[Colors:Selection]
+BackgroundAlternate=85,255,255
+BackgroundNormal=255,133,166
+DecorationFocus=148,77,97
+DecorationHover=89,29,44
+ForegroundActive=31,40,50
+ForegroundInactive=45,50,52
+ForegroundLink=170,0,0
+ForegroundNegative=163,53,83
+ForegroundNeutral=0,0,0
+ForegroundNormal=20,23,24
+ForegroundPositive=55,83,37
+ForegroundVisited=16,16,16
+
+[Colors:Tooltip]
+BackgroundAlternate=60,70,82
+BackgroundNormal=34,34,34
+DecorationFocus=255,133,166
+DecorationHover=77,25,38
+ForegroundActive=150,191,240
+ForegroundInactive=180,179,176
+ForegroundLink=255,133,166
+ForegroundNegative=163,53,83
+ForegroundNeutral=193,193,193
+ForegroundNormal=161,180,186
+ForegroundPositive=120,183,83
+ForegroundVisited=195,195,195
+
+[Colors:View]
+BackgroundAlternate=95,31,47
+BackgroundNormal=26,26,26
+DecorationFocus=255,133,166
+DecorationHover=89,29,44
+ForegroundActive=150,191,240
+ForegroundInactive=148,166,171
+ForegroundLink=255,133,166
+ForegroundNegative=163,53,83
+ForegroundNeutral=198,198,198
+ForegroundNormal=161,180,186
+ForegroundPositive=122,184,84
+ForegroundVisited=194,194,194
+
+[Colors:Window]
+BackgroundAlternate=38,38,38
+BackgroundNormal=38,38,38
+DecorationFocus=255,133,166
+DecorationHover=91,29,45
+ForegroundActive=150,191,240
+ForegroundInactive=128,143,148
+ForegroundLink=255,133,166
+ForegroundNegative=163,53,83
+ForegroundNeutral=207,207,207
+ForegroundNormal=161,180,186
+ForegroundPositive=120,183,83
+ForegroundVisited=197,197,197
+
+[General]
+ColorScheme=RedBlack
+Name=Red-Black
+XftHintStyle=
+XftSubPixel=
+dbfile=/home/alexa/.mozilla/firefox/larbs.default/places.sqlite
+fixed=Hack,9,-1,5,50,0,0,0,0,0,Regular
+font=Noto Sans Display,10,-1,5,50,0,0,0,0,0,Regular
+menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+shadeSortColumn=true
+smallestReadableFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+widgetStyle=Breeze
+
+[Icons]
+Theme=Breeze Chameleon Dark
+
+[KDE]
+ColorScheme=Breeze
+LookAndFeelPackage=Red-Black
+contrast=2
+widgetStyle=breeze
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=false
+Show Speedbar=true
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort reversed=false
+Speedbar Width=102
+View Style=DetailTree
+
+[WM]
+activeBackground=38,38,38
+activeBlend=252,252,252
+activeFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
+activeForeground=161,180,186
+inactiveBackground=38,38,38
+inactiveBlend=75,71,67
+inactiveForeground=161,180,186

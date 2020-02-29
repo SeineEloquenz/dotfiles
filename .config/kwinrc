@@ -1,0 +1,14 @@
+[$Version]
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize
+
+[Compositing]
+OpenGLIsUnsafe=false
+
+[Desktops]
+Id_1=71dd7d9d-bc92-40dd-9433-defb493bf621
+Number=1
+Rows=1
+
+[org.kde.kdecoration2]
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__Red-Black
