@@ -1,2 +1,29 @@
 [General]
-history=st
+history=intellij,mail,st,systemse,i,o,system,sys
+
+[Plugins]
+CharacterRunnerEnabled=true
+DictionaryEnabled=false
+Kill RunnerEnabled=true
+PowerDevilEnabled=true
+Spell CheckerEnabled=false
+baloosearchEnabled=false
+bookmarksEnabled=false
+browsertabsEnabled=false
+calculatorEnabled=true
+desktopsessionsEnabled=false
+konsoleprofilesEnabled=false
+krunner_appstreamEnabled=false
+kwinEnabled=false
+locationsEnabled=false
+org.kde.activitiesEnabled=true
+org.kde.datetimeEnabled=true
+org.kde.windowedwidgetsEnabled=false
+placesEnabled=false
+plasma-desktopEnabled=false
+recentdocumentsEnabled=false
+servicesEnabled=true
+shellEnabled=true
+unitconverterEnabled=true
+webshortcutsEnabled=false
+windowsEnabled=false

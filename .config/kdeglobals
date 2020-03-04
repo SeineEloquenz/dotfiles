@@ -1,5 +1,5 @@
 [$Version]
-update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar
+update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,kwin.upd:animation-speed,icons_remove_effects.upd:IconsRemoveEffects
 
 [ColorEffects:Disabled]
 Color=112,111,110
@@ -106,8 +106,10 @@ ForegroundPositive=120,183,83
 ForegroundVisited=197,197,197
 
 [General]
+BrowserApplication=firefox.desktop
 ColorScheme=RedBlack
 Name=Red-Black
+TerminalApplication=st
 XftHintStyle=
 XftSubPixel=
 dbfile=/home/alexa/.mozilla/firefox/larbs.default/places.sqlite
