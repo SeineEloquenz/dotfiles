@@ -34,7 +34,8 @@ for_window [instance="dropdown_dropdowncalc"] border pixel 2
 for_window [instance="dropdown_*"] move position center
 
 bar {
-	font pango:mono 10
+	font pango:Blobmoji, Icons 11
+	font pango:Inconsolata, Icons 11
 	status_command i3blocks
 	position top
 	mode dock
@@ -57,7 +58,7 @@ bindsym $mod+minus scratchpad show
 bindsym $mod+Shift+Delete	exec --no-startup-id lmc truemute ; exec --no-startup-id lmc pause ; exec --no-startup-id pauseallmpv; workspace 0; exec $term -e htop ; exec $term -e $FILE
 
 # #---Letter Key Bindings---# #
-bindsym $mod+l			exec $term loginctl lock-session
+bindsym $mod+l			exec --no-startup-id $term loginctl lock-session
 
 bindsym $mod+q			[con_id="__focused__" instance="^(?!dropdown_).*$"] kill
 bindsym $mod+Shift+q		[con_id="__focused__" instance="^(?!dropdown_).*$"] exec --no-startup-id kill -9 `xdotool getwindowfocus getwindowpid`
