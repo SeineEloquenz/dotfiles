@@ -1,6 +1,6 @@
 # Basic binds
-super + Return
-	$TERMINAL
+#super + Return
+#	$TERMINAL
 #super + d
 #	dmenu_run
 super + r

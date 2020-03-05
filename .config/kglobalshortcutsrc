@@ -25,6 +25,7 @@ display=Display\tMeta+P,Display\tMeta+P,Switch Display
 [khotkeys]
 _k_friendly_name=KDE Daemon
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=,none,Search
+{de4d68da-74e7-4fe5-a09a-30d54f0248f4}=Ctrl+Alt+T,none,Launch Konsole
 
 [kmix]
 _k_friendly_name=Audio Volume
@@ -205,6 +206,12 @@ nextmedia=Media Next,Media Next,Media playback next
 playpausemedia=Media Play,Media Play,Play/Pause media playback
 previousmedia=Media Previous,Media Previous,Media playback previous
 stopmedia=Media Stop,Media Stop,Stop media playback
+
+[org.kde.konsole.desktop]
+NewTab=,none,Open a New Tab
+NewWindow=none,none,Open a New Window
+_k_friendly_name=Launch Konsole
+_launch=Meta+Return,none,Launch Konsole
 
 [org.kde.plasma.emojier.desktop]
 _k_friendly_name=Emoji Selector
