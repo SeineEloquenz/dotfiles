@@ -1,5 +1,7 @@
 # Disable KWin and use i3gaps as WM
 export KDEWM=/usr/bin/i3
+# Export Terminal
+export TERM=xterm-256color
 
 # Compositor (Animations, Shadows, Transparency)
 # xcompmgr -C
