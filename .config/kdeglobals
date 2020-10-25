@@ -113,11 +113,11 @@ XftHintStyle=hintnone
 XftSubPixel=rgb
 dbfile=/home/alexa/.mozilla/firefox/larbs.default/places.sqlite
 fixed=Inconsolata,9,-1,5,50,0,0,0,0,0,Regular
-font=Inconsolata,12,-1,5,50,0,0,0,0,0,Regular
-menuFont=Inconsolata,10,-1,5,50,0,0,0,0,0,Regular
+font=Roboto,12,-1,5,50,0,0,0,0,0
+menuFont=Roboto,10,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
-smallestReadableFont=Inconsolata,10,-1,5,50,0,0,0,0,0,Regular
-toolBarFont=Inconsolata,10,-1,5,50,0,0,0,0,0,Regular
+smallestReadableFont=Roboto,10,-1,5,50,0,0,0,0,0
+toolBarFont=Roboto,10,-1,5,50,0,0,0,0,0
 widgetStyle=Breeze
 
 [Icons]
@@ -151,7 +151,7 @@ View Style=DetailTree
 [WM]
 activeBackground=38,38,38
 activeBlend=252,252,252
-activeFont=Inconsolata,10,-1,5,50,0,0,0,0,0,Regular
+activeFont=Roboto,10,-1,5,50,0,0,0,0,0
 activeForeground=161,180,186
 inactiveBackground=38,38,38
 inactiveBlend=75,71,67

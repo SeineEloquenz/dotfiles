@@ -1,5 +1,8 @@
 [General]
-history=intellij,mail,st,systemse,i,o,system,sys
+history=systemsettings,dol,kons,intellij,ksystemlog,systemlog,idea,systemse,teams,file,etcher,logo,team,firef,f,min,mail,st,i,o,system,sys
+
+[PlasmaRunnerManager]
+LaunchCounts=5 services_applications:systemsettings.desktop,5 services_systemsettings.desktop,2 services_kcmsmserver.desktop,2 services_applications:org.kde.dolphin.desktop,5 services_org.kde.konsole.desktop
 
 [Plugins]
 CharacterRunnerEnabled=true
