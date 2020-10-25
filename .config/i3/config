@@ -4,13 +4,17 @@
 # This config file will use environmental variables such as $BROWSER and $TERMINAL.
 # You can set these variables in ~/.profile or ~/.bash_profile if you have it as below:
 #
-# export FILE="ranger"
+# export FILE="nnn"
 # export TERMINAL="st"
 
+# Polybar
+# exec_always --no-startup-id ~/.config/polybar/launch.sh
+
+
 # #---Basic Definitions---# #
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 5
+gaps outer 4
 gaps inner 15
-gaps outer 15
 set $term --no-startup-id $TERMINAL
 set $mod Mod4
 
@@ -40,13 +44,29 @@ for_window [instance="dropdown_tmuxdd"] border pixel 3
 for_window [instance="dropdown_dropdowncalc"] border pixel 2
 for_window [instance="dropdown_*"] move position center
 
+# Colors
+# 	       border  backgr. text    indic. 
+client.focused #a33553 #a33553 #ffffff #ff85a6
+
+# Bar
+
 bar {
-	font pango:Blobmoji, Icons 11
-	font pango:Inconsolata, Icons 11
+        font pango:"Font Awesome 5 Free" 11, Roboto 11
 	status_command i3blocks
 	position top
 	mode dock
 	modifier None
+	tray_padding 4
+	colors {
+           background #222222
+           statusline #eeeeee
+           separator #666666
+           #                  border  backgr. text
+           focused_workspace  #666666 #a33553 #ffffff
+           active_workspace   #333333 #5f676a #ffffff
+           inactive_workspace #333333 #222222 #888888
+           urgent_workspace   #2f343a #900000 #ffffff
+        }
 }
 
 # #---Basic Bindings---# #
