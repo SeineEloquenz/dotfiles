@@ -3,7 +3,7 @@ export KDEWM=/usr/bin/i3
 # Export Terminal
 export TERM=xterm-256color
 
-dunst -conf ~/.config/dunst/dunstrc
+dunst -conf ~/.config/dunst/dunstrc &
 
 # Compositor (Animations, Shadows, Transparency)
 # xcompmgr -C
@@ -13,4 +13,4 @@ dunst -conf ~/.config/dunst/dunstrc
 # https://wiki.archlinux.org/index.php/compton
 
 # Start Compton
-picom & --config ~/.config/picom/picom.conf
+picom -b --config ~/.config/picom/picom.conf
