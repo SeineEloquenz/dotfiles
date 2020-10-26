@@ -18,5 +18,3 @@ alias config='/usr/bin/git --git-dir=/home/alexa/.cfg/ --work-tree=/home/alexa'
 setopt no_list_ambiguous
 autoload -Uz compinit && compinit
 zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
-
-setfont ter-118n
