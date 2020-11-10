@@ -1,5 +1,8 @@
 [Theme]
 name=Red-Black
 
+[Theme-plasmathemeexplorer]
+name=Red-Black
+
 [Wallpapers]
 usersWallpapers=/home/alexa/.config/wall.png
